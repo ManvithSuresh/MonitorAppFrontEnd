@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BASE_REST_API_URL = 'http://localhost:9090/api/';
+const BASE_REST_API_URL = 'http://20.235.254.155:9090/api/';
 
 export const getMonitorServerGroupRequest = ()=> {
     return axios.get(BASE_REST_API_URL+'get-all-monitor-server-group')
