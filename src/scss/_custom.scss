@@ -1,0 +1,40 @@
+// Here you can add other styles
+.toast-success {
+    background-color: green;
+    color: white;
+  }
+  
+  .toast-failure {
+    background-color: red;
+    color: white;
+  }
+
+body{
+  
+  overflow-x: auto;
+}
+//   body {
+//     font-size: 12px;
+// }
+
+/* YourCustomStyles.css */
+
+.doughnut-chart-container canvas {
+  position: relative;
+}
+
+.doughnut-chart-container .percentage-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: #000000; /* Set color for the percentage text */
+}
+
+
+.web-services-nav {
+  color: white;
+  /* Add any other styles you want for the entire Web Services group */
+}
+
